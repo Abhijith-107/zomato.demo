@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    background-color: rgb(255, 251, 247);
+}
+
+.nav_bar {
+    display: flex;
+
+}
+
+.nav_brand {
+    width: 100px;  /*to save the pixel of the logo resize the logo dive adn thn image to 100%-width */
+}
+
+.nav_bar_logo {
+    width: 100%;    /*to save the pixel of the logo */
+}
+
+.nav_item {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2475 51%,
+        #ff512f 100%,
+    );
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+}
